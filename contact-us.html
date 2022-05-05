@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+    <title>Hotel Website</title>
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <span
+        ><a href="#"
+          ><img
+            class="site-logo"
+            width="180"
+            src="../assets/SHotel-white.png"
+            alt=""
+        /></a>
+      </span>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="main-navigation active">Home</a></li>
+          <li><a href="#" class="main-navigation">Rooms</a></li>
+          <li><a href="#" class="main-navigation">Gastronomy</a></li>
+          <li><a href="contact-us.html" class="main-navigation">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section class="hero-contact">
+      <div class="contact-img"></div>
+    </section>
+
+      <section>
+        <div class="row">
+          <div class="column-2">
+            <h3 class="title">General information</h3>
+            <span class="list-title">Reception Office</span>
+            <p>Megali Ammos 846, Mykonos, Greece</p>
+            <br /><br />
+            <span class="list-title">Reception Hours</span>
+            <p>7:30 AM - 11:00 PM</p>
+            <br /><br />
+            <span class="list-title">Contact</span>
+            <p class="email-phone">+1-123 456 7890 / test@test.com</p>
+          </div>
+          <div class="column-2">
+            <h3 class="title">Send us a message now</h3>
+            <form>
+              <label class="list-title" for="fullname">Name *</label>
+              <input type="text" name="fullname" placeholder="Your name..." required/>
+
+              <label class="list-title" for="email">Email *</label>
+              <input type="email" name="email" placeholder="Your email..." required/>
+
+              <label class="list-title" for="message" required>Your Message *</label>
+              <textarea
+                name="message"
+                placeholder="Your Message..."
+                style="height: 200px"
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="map">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="100%"
+              height="500"
+              id="gmap_canvas"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3167.937103446042!2d25.325066515308027!3d37.438590579821955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a2bfa99f4e8f6b%3A0x382c6156e556ae72!2sMykonos%20Beach%20Hotel%20S.A.!5e0!3m2!1sfr!2sfr!4v1651498654276!5m2!1sfr!2sfr"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe
+            ><style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 100%;
+                width: 100%;
+              }</style
+            ><style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 100%;
+                width: 100%;
+              }
+            </style>
+
+          </div>
+        </div>
+      </section>
+</main>
+    <footer>
+    <div class="footer-content">
+      <div class="left box">
+        <h2>About Us</h2>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Quod asperiores assumenda cumque quam provident. 
+          </p>
+          <div class="social-media">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-twitter"></span></a>
+            <a href="#"><span class="fab fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="content">
+<div class="place">
+  <span class="fas fa-phone-alt"></span>
+  <span class="text">+1-123 456 7890</span>
+</div>
+<div class="phone">
+  <span class="fas fa-map-marker-alt"></span>
+  <span class="text">Mykonos, Greece</span>
+</div>
+<div class="email">
+  <span class="fas fa-envelope"></span>
+  <span class="text">test@test.com</span>
+</div>
+      </div>
+    </div>
+    <div class="right box">
+      <h2>Contact Us</h2>
+      <div class="content">
+        <form action="#">
+          <div class="email">
+            <div class="text">Email *</div>
+            <input type="email" required>
+          </div>
+          <div class="message">
+            <div class="text">Message *</div>
+            <textarea cols="25" rows="2" required></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    <div class="bottom">
+      <p class="copyright">&copy; 2022 | Powered by Sarah Petit</p>
+    </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/515640d61a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
