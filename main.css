@@ -25,15 +25,6 @@ a:hover {
   opacity: 1;
 }
 
-a.btn{
-	color: #fff;
-	border-radius: 4px;
-	text-transform: uppercase;
-	background-color: #2196F3;
-	font-weight: 800;
-	text-align: center;
-}
-
 .active {
   text-decoration: underline;
 }
@@ -266,19 +257,6 @@ section p {
   background-size: cover;
   background-position: center;
   margin-bottom: 80px;
-}
-
-.contact-info h2 {
-  color: #fff;
-  margin-top: -6rem;
-  font-size: 4rem;
-  text-align: center;
-}
-
-.contact-info p {
-  color: #fff;
-  text-align: center;
-  font-size: 1.5rem;
 }
 
 .phone-number {
