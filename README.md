@@ -1,4 +1,4 @@
-# Hôtel Website ☀️🌴🍹
+# Hotel Website ☀️🌴🍹
 Marketing website for fictional hotel
 
 <h1>Description</h1>
